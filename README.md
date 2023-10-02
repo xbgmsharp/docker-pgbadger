@@ -1,13 +1,13 @@
 # xbgmsharp/pgbadger
 A [pgBadger](https://github.com/darold/pgbadger) Docker image.
 
-[![xbgmsharp/docker-pgbadger[docker-pulls-image]][docker-hub-url]
+[![xbgmsharp/docker-pgbadger][docker-pulls-image]][docker-hub-url]
 [![xbgmsharp/docker-pgbadger][docker-stars-image]][docker-hub-url]
 [![xbgmsharp/docker-pgbadger][docker-size-image]][docker-hub-url]
 [![xbgmsharp/docker-pgbadger][docker-layers-image]][docker-hub-url]
 
 ## Supported tags and respective `Dockerfile` links
-- `8.1`, `11.1`, `latest` ([Dockerfile](Dockerfile))
+- `latest` ([Dockerfile](Dockerfile))
 
 ## What is pgBadger?
 
@@ -35,7 +35,7 @@ Here is a sample usage with `docker-compose` that mounts the volumes from a runn
 
 ```yml
 pgbadger:
-  image: xbgmsharp/pgbadger
+  image: xbgmsharp/docker-pgbadger
   command: /var/lib/postgresql/data/pg_log/postgresql.log
   volumes:
     - ./cache/pgbadger:/data
