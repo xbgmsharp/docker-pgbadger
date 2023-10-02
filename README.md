@@ -1,11 +1,10 @@
 # xbgmsharp/pgbadger
 A [pgBadger](https://github.com/darold/pgbadger) Docker image.
 
-[![xbgmsharp/pgbadger][docker-pulls-image]][docker-hub-url]
-[![xbgmsharp/pgbadger][docker-stars-image]][docker-hub-url]
-[![xbgmsharp/pgbadger][docker-size-image]][docker-hub-url]
-[![xbgmsharp/pgbadger][docker-layers-image]][docker-hub-url]
-[![Travis build status][travis-image]][travis-url]
+[![xbgmsharp/docker-pgbadger[docker-pulls-image]][docker-hub-url]
+[![xbgmsharp/docker-pgbadger][docker-stars-image]][docker-hub-url]
+[![xbgmsharp/docker-pgbadger][docker-size-image]][docker-hub-url]
+[![xbgmsharp/docker-pgbadger][docker-layers-image]][docker-hub-url]
 
 ## Supported tags and respective `Dockerfile` links
 - `8.1`, `11.1`, `latest` ([Dockerfile](Dockerfile))
@@ -45,13 +44,10 @@ pgbadger:
 ```
 
 ## Image variants
-The `xbgmsharp/pgbadger` image comes in multiple flavors:
+The `xbgmsharp/docker-pgbadger` image comes in multiple flavors:
 
-### `xbgmsharp/pgbadger:latest`
+### `xbgmsharp/docker-pgbadger:latest`
 Points to the latest release available of `pgBadger`.
-
-### `xbgmsharp/pgbadger:<version>`
-Targets a specific version of `pgBadger` (e.g. `8.1`).
 
 ## Supported Docker versions
 This image is officially supported on Docker version 1.11, with support for older versions provided on a best-effort basis.
@@ -61,10 +57,9 @@ This image is officially supported on Docker version 1.11, with support for olde
 
 [License information](LICENSE) for the [xbgmsharp/docker-pgbadger](https://hub.docker.com/r/xbgmsharp/pgbadger) docker project.
 
-[docker-hub-url]: https://hub.docker.com/r/xbgmsharp/pgbadger
-[docker-layers-image]: https://img.shields.io/microbadger/layers/xbgmsharp/pgbadger/latest.svg?style=flat-square
-[docker-pulls-image]: https://img.shields.io/docker/pulls/xbgmsharp/pgbadger.svg?style=flat-square
-[docker-size-image]: https://img.shields.io/microbadger/image-size/xbgmsharp/pgbadger/latest.svg?style=flat-square
-[docker-stars-image]: https://img.shields.io/docker/stars/xbgmsharp/pgbadger.svg?style=flat-square
+[docker-hub-url]: https://hub.docker.com/r/xbgmsharp/docker-pgbadger
+[docker-layers-image]: https://img.shields.io/microbadger/layers/xbgmsharp/docker-pgbadger/latest.svg?style=flat-square
+[docker-pulls-image]: https://img.shields.io/docker/pulls/xbgmsharp/docker-pgbadger.svg?style=flat-square
+[docker-size-image]: https://img.shields.io/microbadger/image-size/xbgmsharp/docker-pgbadger/latest.svg?style=flat-square
+[docker-stars-image]: https://img.shields.io/docker/stars/docker-pgbadger.svg?style=flat-square
 [travis-image]: https://img.shields.io/travis/xbgmsharp/docker-pgbadger?style=flat-square
-[travis-url]: https://travis-ci.org/xbgmsharp/docker-pgbadger
