@@ -1,6 +1,9 @@
 # xbgmsharp/pgbadger
 A [pgBadger](https://github.com/darold/pgbadger) Docker image.
 
+[![Build Docker Image](https://github.com/xbgmsharp/docker-pgbadger/actions/workflows/docker-image.yml/badge.svg)](https://github.com/xbgmsharp/docker-pgbadger/actions/workflows/docker-image.yml)
+
+
 [![xbgmsharp/docker-pgbadger][docker-pulls-image]][docker-hub-url]
 [![xbgmsharp/docker-pgbadger][docker-stars-image]][docker-hub-url]
 [![xbgmsharp/docker-pgbadger][docker-size-image]][docker-hub-url]
@@ -62,4 +65,3 @@ This image is officially supported on Docker version 1.11, with support for olde
 [docker-pulls-image]: https://img.shields.io/docker/pulls/xbgmsharp/docker-pgbadger.svg?style=flat-square
 [docker-size-image]: https://img.shields.io/microbadger/image-size/xbgmsharp/docker-pgbadger/latest.svg?style=flat-square
 [docker-stars-image]: https://img.shields.io/docker/stars/docker-pgbadger.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/xbgmsharp/docker-pgbadger?style=flat-square
